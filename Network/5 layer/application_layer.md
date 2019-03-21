@@ -100,6 +100,7 @@ socket()을 호출시에는 트랜스포트 프로토콜만을 지정하게 되�
 (2)에서 만든 서버의 소켓주소 구조체를 사용하여 서버에게 접속요청을 하기 위하여 connect()를 호출한다. connect()는 상대방 즉, 서버의 IP 주소와 포트번호를 명시하여 3-1-1에서 구한 소켓번호로 호출하면 된다. 클라이언트가 호출한 connect()가 성공적으로 연결되려면 서버에서 accept()를 호출해 두고 있어야 한다.
 
 connect()의 사용 문법은 아래와 같다.
+
 ![image](https://user-images.githubusercontent.com/21019088/54738888-69792e00-4bf9-11e9-8aa8-fb6dc85080e5.png)
 
 ![image](https://user-images.githubusercontent.com/21019088/54738909-79910d80-4bf9-11e9-8436-b0f76cd39b8e.png)
@@ -146,6 +147,7 @@ socket() 시스템 콜을 통해서 생성된 소켓은 그 응용 프로그램�
 그러나 이 번호는 응용 프로그램만 알고 사용하는 번호이므로 이 프로그램이 컴퓨터 외부와 통신하려면 이 소켓번호와 TCP/IP 시스템이 제공하는 소켓주소(IP 주소 + 포트번호)를 연결해 두어야 하며 이를 위하여 bind()를 사용한다.
 
 bind()의 사용 문법은 아래와 같다.
+
 ![image](https://user-images.githubusercontent.com/21019088/54739120-3f743b80-4bfa-11e9-97de-d51a7f1630c4.png)
 
 밑의 그림은 bind() 호출시의 IP 주소, 포트번호, 그리고 소켓번호의 관계를 나타냈다.
@@ -164,6 +166,7 @@ bind()는 응용 프로그램 자신의(local) 주소와 소켓번호를 연결�
 서버는 클라이언트로부터의 연결요청을 받아들이기 위하여 클라이언트는 기다리고 있어야 하는 상황이 발생한다. 이를 위하여 listen()을 호출한다. 
 
 listen()의 사용문법은 아래와 같다.
+
 ![image](https://user-images.githubusercontent.com/21019088/54739173-86623100-4bfa-11e9-81ad-f7396fe96c17.png)
 
 위에서 인자 log는 서버에서 (다음에 설명할) accept()를 처리하는 동안 대기시킬 수 있는 connect()의 요청 수를 지정한다. 즉, 클라이언트가 요구한 연결요청을 최대 log개까지 기다리게 할 수 있다는 것이다.
@@ -181,6 +184,7 @@ accept()의 수행이 성공한 경우에는 접속된 클라이언트와의 일
 accept()는 또한 접속된 클라이언트의 소켓주소 구조체와 구조체의 길이의 포인터를 함수인자 addr과 addrlen으로 각각 알아온다.
 
 accept()의 사용문법은 아래와 같다.
+
 ![image](https://user-images.githubusercontent.com/21019088/54739248-d2ad7100-4bfa-11e9-962f-d3f7b30ab9d6.png)
 
 ![image](https://user-images.githubusercontent.com/21019088/54739275-de993300-4bfa-11e9-8638-61723b86b161.png)
