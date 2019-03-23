@@ -226,5 +226,9 @@ fork() 시스템 콜이 성공적으로 수행되면 그 순간에 하나의 프
 
 ![image](https://user-images.githubusercontent.com/21019088/54740360-82381280-4bfe-11e9-8b63-697c51717c3a.png)
 
+## :star: 소켓 인터페이스
+소켓 인터페이스(API)는 운영체제에서 제공되며 종류로는 socket(), bind(), connect(), listen(), accept, read, write, close등이 있다.
+
+
 ### refereces
 http://jkkang.net/unix/netprg/chap2/net2_intro.html
