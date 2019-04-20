@@ -53,3 +53,6 @@ CPU 스케줄러라고도 하며, 준비 상태의 프로세스 중에서 어떤
 
 ![image](https://user-images.githubusercontent.com/21019088/56453501-44094c80-637e-11e9-9a89-f1425ee34de0.png)
 
+## Referece
+https://books.google.co.kr/books?id=EcMqBh5MDQIC&pg=PA135&lpg=PA135&dq=%EC%A4%91%EA%B8%B0+%EC%8A%A4%EC%BC%80%EC%A4%84%EB%9F%AC&source=bl&ots=UPlSGumdc5&sig=ACfU3U3qv5Ov2eCUZ1n38uWJXt6SkAQ3IQ&hl=ko&sa=X&ved=2ahUKEwify9n-4d3hAhUrG6YKHS81DKwQ6AEwBnoECAkQAQ#v=onepage&q&f=false
+
