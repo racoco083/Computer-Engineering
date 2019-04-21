@@ -1,4 +1,4 @@
-## Semaphore
+## Mutex, Semaphore, Monitor
 
 ![image](https://user-images.githubusercontent.com/21019088/56459159-a0925900-63ca-11e9-9006-6fb34cff32a6.png)
 
