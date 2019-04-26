@@ -248,3 +248,5 @@ fork() 시스템 콜이 성공적으로 수행되면 그 순간에 하나의 프
 
 ### refereces
 http://jkkang.net/unix/netprg/chap2/net2_intro.html
+
+https://hybridego.net/entry/%EC%86%8C%EC%BC%93%EC%97%90%EC%84%9C-%EC%84%9C%EB%B2%84%EC%97%90%EB%8A%94-%ED%8F%AC%ED%8A%B8%EB%B2%88%ED%98%B8%EB%A5%BC-%EC%A7%80%EC%A0%95%ED%95%B4%EC%A3%BC%EC%A7%80%EB%A7%8C-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EB%8A%94-%EC%A7%80%EC%A0%95%ED%95%B4%EC%A3%BC%EC%A7%80-%EC%95%8A%EB%8A%94%EB%8B%A4-%EA%B7%B8%EB%A0%87%EB%8B%A4%EB%A9%B4-%EC%84%9C%EB%B2%84%EB%8A%94
